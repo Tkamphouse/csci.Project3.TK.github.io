@@ -1,0 +1,17 @@
+body {
+    background-color: lavender;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+  }
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: slateblue;
+}
+
+address {
+    font-family: "Courier New", monospace;
+    color: mediumslateblue;
+}
