@@ -21,6 +21,13 @@ img {
     width: 623px;
 }
 
+.container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 640px;
+}
+
 .paintingBackground {
     height: 640px;
     width: 623px;
