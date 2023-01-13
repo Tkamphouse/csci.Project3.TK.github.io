@@ -59,7 +59,9 @@ body .paper .triangle-right {
 body .paper .triangle-right .yellowBottomLeft {
     width: 18.6%;
 	height: 37.2%;
-    color:gold;
+    border-top: 25px solid transparent;
+	border-left: 50px solid gold;
+	border-bottom: 25px solid transparent;
     top: 50%;
     right: 50%;
 }
