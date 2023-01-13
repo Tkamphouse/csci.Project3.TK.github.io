@@ -36,8 +36,8 @@ body .paper {
 body .paper .container {
     position: relative;
     margin: auto;
-    width: 100%;
-    height: 1050px;
+    width: 623px;
+    height: 640px;
     perspective:400px
 }
 
