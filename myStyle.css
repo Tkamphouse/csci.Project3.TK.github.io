@@ -40,6 +40,17 @@ body .paper .container {
     height: 640px;
 }
 
+body .paper .container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    filter: opacity(1);
+    height: 100%;
+    width: 100%;
+    background: rgba(161, 119, 104, 0.18);
+    pointer-events:none
+}
+
 body .paper .triangle-right {
 	width: 623px;
 	height: 640px;
