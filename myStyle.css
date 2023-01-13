@@ -64,3 +64,29 @@ body .paper .triangle-right .yellowBottomLeft {
 	border-bottom: 100px solid transparent;
 }
 
+body .paper .container .square {
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height:72%
+}
+body .paper .container .square .flower {
+    width: 112%;
+    height: 168%;
+    bottom: 49%;
+    right:42%
+}
+
+body .paper .container .square .flower .stem {
+    border-radius:90%
+}
+
+body .paper .container .square .flower .stem.st1 {
+    border-right: 3px solid #578857;
+    width: 32%;
+    height: 90%;
+    transform:rotate(-66deg)
+}
+
