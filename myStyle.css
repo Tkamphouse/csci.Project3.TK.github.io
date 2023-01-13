@@ -30,7 +30,8 @@ body .paper {
     box-shadow: 0 0 10px 8px #251e0b, 0 0 5px 20px #473c1c, 0 0 14px 34px #2e2613, 0 0 0 40px #261e0f;
     overflow: hidden;
     box-sizing: content-box;
-    width:650px
+    height: 640px;
+    width: 623px;
 }
 
 body .paper .container {
@@ -38,7 +39,6 @@ body .paper .container {
     margin: auto;
     width: 623px;
     height: 640px;
-    perspective:400px
 }
 
 body .paper .container .painting {
