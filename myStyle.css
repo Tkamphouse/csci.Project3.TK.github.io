@@ -59,34 +59,19 @@ body .paper .triangle-right {
 body .paper .triangle-right .yellowBottomLeft {
     width: 18.6%;
 	height: 37.2%;
-    border-top: 100px solid transparent;
+    
 	border-left: 100px solid gold;
-	border-bottom: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
 }
 
-body .paper .container .square {
-    top: 8%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100%;
-    height:72%
-}
-body .paper .container .square .flower {
-    width: 112%;
-    height: 168%;
-    bottom: 49%;
-    right:42%
-}
+body .paper .square {
+	width: 623px;
+	height: 640px;
 
-body .paper .container .square .flower .stem {
-    border-radius:90%
+    border-left: 100px solid transparent;
+    border-right: 100px solid red;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
 }
-
-body .paper .container .square .flower .stem.st1 {
-    border-right: 3px solid #578857;
-    width: 32%;
-    height: 90%;
-    transform:rotate(-66deg)
-}
-
