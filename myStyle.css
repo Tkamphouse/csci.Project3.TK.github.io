@@ -52,8 +52,8 @@ body .paper .container:after {
 }
 
 body .paper .trianglRight {
-	width: 623px;
-	height: 640px;
+	width: 0px;
+	height: 0px;
 }
 
 body .paper .trianglLeft {
@@ -77,12 +77,3 @@ body .paper .trianglLeft .redMiddleLeft {
     border-right:50px solid powderblue; 
   }
 
-body .paper .square {
-	width: 623px;
-	height: 640px;
-
-    border-left: 100px solid transparent;
-    border-right: 100px solid red;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-}
