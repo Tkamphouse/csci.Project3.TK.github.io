@@ -62,24 +62,17 @@ body .paper .trianglLeft {
 }
 
 body .paper .trianglRight .yellowBottomLeft {
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    
-    border-right:10px solid blue; 
+    border-top: 120px solid transparent;
+    border-bottom: 120px solid transparent;
+    border-right: 213px solid transparent;
+	border-left: 213px solid goldenrod;
 }
 
 body .paper .trianglLeft .redMiddleLeft {
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent; 
-    border-right:50px solid powderblue; 
+    border-top: 312px solid transparent;
+    border-bottom: 312px solid transparent; 
+    border-right:640px solid red; 
+    border-left: 640px solid transparent; 
   }
 
-  .arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    
-    border-right:10px solid blue; 
-  }
 
