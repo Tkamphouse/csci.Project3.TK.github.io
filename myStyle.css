@@ -52,7 +52,7 @@ body .paper .container:after {
 }
 
 body .paper .triangl {
-    position: absolute;
+   
 	width: 0;
 	height: 0;
 }
