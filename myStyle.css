@@ -58,8 +58,6 @@ body .paper .triangl {
 }
 
 body .paper .trianglRight .yellowBottomLeft {
-    bottom: 100px;
-    left: 120px;
 
     border-top: 120px solid transparent;
     border-bottom: 120px solid transparent;
@@ -68,8 +66,6 @@ body .paper .trianglRight .yellowBottomLeft {
 }
 
 body .paper .trianglLeft .redMiddleLeft {
-    top: 100px;
-    right: 100px;
 
     border-top: 312px solid transparent;
     border-bottom: 312px solid transparent; 
