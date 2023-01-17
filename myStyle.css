@@ -52,25 +52,34 @@ body .paper .container:after {
 }
 
 body .paper .trianglRight {
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 }
 
 body .paper .trianglLeft {
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 }
 
 body .paper .trianglRight .yellowBottomLeft {
-	border-left: 100px solid purple;
-    border-right: 100px solid blue;
-    border-top: 100px solid goldenrod;
-    border-bottom: 100px solid green;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:10px solid blue; 
 }
 
 body .paper .trianglLeft .redMiddleLeft {
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent; 
     border-right:50px solid powderblue; 
+  }
+
+  .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:10px solid blue; 
   }
 
