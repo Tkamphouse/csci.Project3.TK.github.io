@@ -51,17 +51,16 @@ body .paper .container:after {
     pointer-events:none
 }
 
-body .paper .trianglRight {
-	width: 0;
-	height: 0;
-}
-
-body .paper .trianglLeft {
+body .paper .triangl {
+    position: absolute;
 	width: 0;
 	height: 0;
 }
 
 body .paper .trianglRight .yellowBottomLeft {
+    bottom: 0px;
+    left: 120px;
+
     border-top: 120px solid transparent;
     border-bottom: 120px solid transparent;
     border-right: 213px solid transparent;
@@ -69,6 +68,9 @@ body .paper .trianglRight .yellowBottomLeft {
 }
 
 body .paper .trianglLeft .redMiddleLeft {
+    top: 0px;
+    right: 0px;
+
     border-top: 312px solid transparent;
     border-bottom: 312px solid transparent; 
     border-right:640px solid red; 
