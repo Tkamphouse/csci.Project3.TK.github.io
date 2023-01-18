@@ -25,7 +25,7 @@ body {
 body .paper {
     position: relative;
     margin: auto;
-    background-color: gray;
+    background-color: blue;
     box-shadow: 0 0 10px 8px #251e0b, 0 0 5px 20px #473c1c, 0 0 14px 34px #2e2613, 0 0 0 40px #261e0f;
     overflow: hidden;
     box-sizing: content-box;
@@ -52,25 +52,94 @@ body .paper .container:after {
 }
 
 body .paper .triangl {
-   
 	width: 0;
 	height: 0;
 }
 
-body .paper .trianglRight .yellowBottomLeft {
-
+body .paper .triangl .yellowBottomLeft {
+	position: absolute;
+	bottom: 0px;
+	
     border-top: 120px solid transparent;
     border-bottom: 120px solid transparent;
-    border-right: 213px solid transparent;
-	border-left: 213px solid goldenrod;
+    border-right: 120px solid transparent;
+	border-left: 120px solid rgb(218,174,70);
 }
 
-body .paper .trianglLeft .redMiddleLeft {
+body .paper .triangl .whiteBottomLeft {
+	position: absolute;
+	bottom: 0px;
+	
+    border-top: 120px solid transparent;
+    border-bottom: 120px solid rgb(204,200,194);
+    border-right: 120px solid transparent;
+	border-left: 120px solid transparent;
+}
 
-    border-top: 312px solid transparent;
-    border-bottom: 312px solid transparent; 
-    border-right:640px solid red; 
-    border-left: 640px solid transparent; 
+body .paper .triangl .redMiddleLeft {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+    border-top: 383px solid transparent;
+    border-bottom: 383px solid transparent; 
+    border-right: 383px solid rgb(184,18,3); 
+    border-left: 383px solid transparent; 
   }
 
+body .paper .triangl .blackMiddleLeft {
+	position: absolute;
+	bottom: 0px;
+	right: 383px;
+
+    border-top: 330px solid transparent;
+    border-bottom: 330px solid transparent; 
+    border-right: 330px solid rgb(10,9,9); 
+    border-left: 330px solid transparent; 
+}
+
+body .paper .triangl .whiteTopRight {
+	position: absolute;
+	bottom: 257px;
+	right: 143px;
+
+    border-top: 240px solid transparent;
+    border-bottom: 240px solid transparent; 
+    border-right: 240px solid transprent; 
+    border-left: 240px solid rgb(204,200,194); 
+}
+
+body .paper .triangl .greyRightDown {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+    border-top: 143px solid rgb(100,100,100);
+    border-bottom: 143px solid transparent; 
+    border-right: 143px solid transparent; 
+    border-left: 143px solid transparent; 
+}
+
+body .paper .triangl .silverLeftDown {
+	position: absolute;
+	bottom: 0px;
+	right: 383px;
+
+    border-top: 330px solid rgb(150,158,167);
+    border-bottom: 330px solid transparent; 
+    border-right: 330px solid transparent; 
+    border-left: 330px solid transparent; 
+}
+
+body .paper .triangl .silverMiddleAngled {
+	position: absolute;
+	transform:rotate(45deg);
+	top: 458px;
+	right: 198px;
+
+    border-top: 185px solid rgb(160,164,176);
+    border-bottom: 185px solid transparent; 
+    border-right: 185px solid transparent; 
+    border-left: 185px solid transparent; 
+}
 
