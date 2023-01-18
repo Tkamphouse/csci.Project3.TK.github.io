@@ -1,3 +1,57 @@
+:root {
+	--repeats: 20;
+}
+
+
+@keyframes ani1 {
+	0% {left: -500px;}
+	50% {left: 0px;}
+	100% {left: 0px;}
+}
+
+@keyframes ani2 {
+	0% {bottom: 400px; right: -17;}
+	50% {bottom: 0px; right: 383px;}
+	100% {bottom: 0px; right: 383px;}
+}
+
+@keyframes ani3 {
+	0% {bottom: -500px;}
+	50% {bottom: 0px;}
+	100% {bottom: 0px;}
+}
+
+@keyframes ani4 {
+	0% {top: -500px; right: -500px;}
+	50% {top: 0px; right: 0px;}
+	100% {top: 0px; right: 0px;}
+}
+
+@keyframes ani5 {
+	0% {top: 958px; right: 198px;}
+	50% {top: 458px; right: 198px;}
+	100% {top: 458px; right: 198px;}
+}
+
+@keyframes ani6 {
+	0% {bottom: 857px; right: 143px;}
+	50% {bottom: 257px; right: 143px;}
+	100% {bottom: 257px; right: 143px;}
+}
+
+@keyframes ani7 {
+	0% {bottom: 0px; right: -700px;}
+	50% {top: 0px; right: 0px;}
+	100% {top: 0px; right: 0px;}
+}
+
+@keyframes ani8 {
+	0% {bottom: 1000px; right: 383px;}
+	50% {bottom: 0px; right: 383px;}
+	100% {bottom: 0px; right: 383px;}
+}
+
+
 
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -15,6 +69,7 @@ img {
 }
 
 body {
+	padding-bottom: 200px;
     background-color: lavender;
     background-repeat: no-repeat;
     background-position: top;
@@ -24,8 +79,9 @@ body {
 
 body .paper {
     position: relative;
+	top: 70px;
     margin: auto;
-    background-color: blue;
+    background-image: url("parch2.jpeg");
     box-shadow: 0 0 10px 8px #251e0b, 0 0 5px 20px #473c1c, 0 0 14px 34px #2e2613, 0 0 0 40px #261e0f;
     overflow: hidden;
     box-sizing: content-box;
@@ -64,6 +120,11 @@ body .paper .triangl .yellowBottomLeft {
     border-bottom: 120px solid transparent;
     border-right: 120px solid transparent;
 	border-left: 120px solid rgb(218,174,70);
+	
+	animation-name: ani1;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .whiteBottomLeft {
@@ -74,6 +135,11 @@ body .paper .triangl .whiteBottomLeft {
     border-bottom: 120px solid rgb(204,200,194);
     border-right: 120px solid transparent;
 	border-left: 120px solid transparent;
+	
+	animation-name: ani3;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .redMiddleLeft {
@@ -84,7 +150,12 @@ body .paper .triangl .redMiddleLeft {
     border-top: 383px solid transparent;
     border-bottom: 383px solid transparent; 
     border-right: 383px solid rgb(184,18,3); 
-    border-left: 383px solid transparent; 
+    border-left: 383px solid transparent;
+
+	animation-name: ani7;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
   }
 
 body .paper .triangl .blackMiddleLeft {
@@ -96,6 +167,11 @@ body .paper .triangl .blackMiddleLeft {
     border-bottom: 330px solid transparent; 
     border-right: 330px solid rgb(10,9,9); 
     border-left: 330px solid transparent; 
+	
+	animation-name: ani8;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .whiteTopRight {
@@ -107,6 +183,11 @@ body .paper .triangl .whiteTopRight {
     border-bottom: 240px solid transparent; 
     border-right: 240px solid transprent; 
     border-left: 240px solid rgb(204,200,194); 
+	
+	animation-name: ani6;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .greyRightDown {
@@ -118,6 +199,11 @@ body .paper .triangl .greyRightDown {
     border-bottom: 143px solid transparent; 
     border-right: 143px solid transparent; 
     border-left: 143px solid transparent; 
+	
+	animation-name: ani4;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .silverLeftDown {
@@ -129,6 +215,11 @@ body .paper .triangl .silverLeftDown {
     border-bottom: 330px solid transparent; 
     border-right: 330px solid transparent; 
     border-left: 330px solid transparent; 
+	
+	animation-name: ani2;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
 body .paper .triangl .silverMiddleAngled {
@@ -141,5 +232,10 @@ body .paper .triangl .silverMiddleAngled {
     border-bottom: 185px solid transparent; 
     border-right: 185px solid transparent; 
     border-left: 185px solid transparent; 
+	
+	animation-name: ani5;
+	animation-duration: 10s;
+	animation-iteration-count: var(--repeats);
+	animation-direction: alternate;
 }
 
